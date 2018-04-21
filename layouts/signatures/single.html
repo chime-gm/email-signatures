@@ -1,29 +1,22 @@
 <head>
   <style>
-  	@import url("//2hello.myfonts.net/count/3664ec");
+  	@import url("//hello.myfonts.net/count/3664ec");
 
     @font-face {font-family: 'DINNextLTPro-Light';src: url('{{ $.Site.BaseURL }}webfonts/3664EC_5_0.woff') format('woff');}  
     @font-face {font-family: 'DINNextLTPro-Regular';src: url('{{ $.Site.BaseURL }}webfonts/3664EC_B_0.woff') format('woff');}  
     @font-face {font-family: 'DINNextLTPro-Medium';src: url('{{ $.Site.BaseURL }}webfonts/3664EC_C_0.woff') format('woff');}
-
-    .row1 {padding-top: 25px; vertical-align: top;}
-    .col1 {width: 145; padding-left: 0;}
-    .icol1 {padding-top: 10; width: 35;}
-    .name {font-family: "DINNextLTPro-Regular", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-weight: normal; font-style: normal;font-size: 16pt; color: #313C52;}
-    .text1 {font-family: "DINNextLTPro-Light", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size: 11pt; color: #313C52; font-weight: normal; font-style: normal; }
-    .text2 {font-family: "DINNextLTPro-Medium", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size: 11pt; color: #313C52; font-weight: normal; font-style: normal; width: 35;}
   </style>
 <head>
 <body>  
   <table cellpadding="0" cellspacing="0" border="0" style="width: 400px;">
     <tbody>
       <tr>
-        <td class="row1 col1">
+        <td style="padding-top: 25px; vertical-align: top; width: 145; padding-left: 0;">
           <img src="{{ $.Site.BaseURL }}img/logo.png" alt="Good Monday">
         </td>
-        <td class="row1">
-          <font class="name">{{.Params.name}}</font><br>
-          <font class="text1">{{.Params.title}}</font>
+        <td style="padding-top: 25px; vertical-align: top;">
+          <font style="font-family: 'DINNextLTPro-Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 16pt; color: #313C52;">{{.Params.name}}</font><br>
+          <font style="font-family: 'DINNextLTPro-Light', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 11pt; color: #313C52;">{{.Params.title}}</font>
         </td>
       </tr>
       <tr>
@@ -32,31 +25,31 @@
           <table cellpadding="0" cellspacing="0" border="0" style="padding-top: 10px;">
             <tbody>
               <tr>
-                <td class="text2">T.  </td>
-                <td class="text1">{{.Params.T}}</td>
+                <td style="font-family: 'DINNextLTPro-Medium', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 11pt; color: #313C52;width: 35;">T. </td>
+                <td style="font-family: 'DINNextLTPro-Light', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 11pt; color: #313C52;">{{.Params.T}}</td>
               </tr>
               <tr>
-                <td class="text2">M.  </td>
-                <td class="text1">{{.Params.M}}</td>
+                <td style="font-family: 'DINNextLTPro-Medium', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 11pt; color: #313C52;">M.  </td>
+                <td style="font-family: 'DINNextLTPro-Light', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 11pt; color: #313C52;">{{.Params.M}}</td>
               </tr>
               <tr>
-                <td class="text2">W.  </td>
-                <td class="text1">goodmonday.io</td>
+                <td style="font-family: 'DINNextLTPro-Medium', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 11pt; color: #313C52;">W.  </td>
+                <td style="font-family: 'DINNextLTPro-Light', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 11pt; color: #313C52;">goodmonday.io</td>
               </tr>
               <tr>
-                <td class="text2">S.  </td>
-                <td class="text1">{{.Params.S}}</td>
+                <td style="font-family: 'DINNextLTPro-Medium', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 11pt; color: #313C52;">S.  </td>
+                <td style="font-family: 'DINNextLTPro-Light', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 11pt; color: #313C52;">{{.Params.S}}</td>
               </tr>
               <tr>
                 <td style="height: 19"> </td>
               </tr>
               <tr>
-                <td class="text2">A.  </td>
-                <td class="text1">{{.Params.A}}</td>
+                <td style="font-family: 'DINNextLTPro-Medium', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 11pt; color: #313C52;">A.  </td>
+                <td style="font-family: 'DINNextLTPro-Light', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 11pt; color: #313C52;">{{.Params.A}}</td>
               </tr>
               <tr>
                 <td></td>
-                <td class="text1">{{.Params.A2}}</td>
+                <td style="font-family: 'DINNextLTPro-Light', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif; font-size: 11pt; color: #313C52;">{{.Params.A2}}</td>
               </tr>
             </tbody>
           </table>
