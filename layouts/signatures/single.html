@@ -2,9 +2,9 @@
   <style>
   	@import url("//2hello.myfonts.net/count/3664ec");
 
-    @font-face {font-family: 'DINNextLTPro-Light';src: url('{{ $.Site.BaseURL }}/webfonts/3664EC_5_0.woff') format('woff');}  
-    @font-face {font-family: 'DINNextLTPro-Regular';src: url('{{ $.Site.BaseURL }}/webfonts/3664EC_B_0.woff') format('woff');}  
-    @font-face {font-family: 'DINNextLTPro-Medium';src: url('{{ $.Site.BaseURL }}/webfonts/3664EC_C_0.woff') format('woff');}
+    @font-face {font-family: 'DINNextLTPro-Light';src: url('{{ $.Site.BaseURL }}webfonts/3664EC_5_0.woff') format('woff');}  
+    @font-face {font-family: 'DINNextLTPro-Regular';src: url('{{ $.Site.BaseURL }}webfonts/3664EC_B_0.woff') format('woff');}  
+    @font-face {font-family: 'DINNextLTPro-Medium';src: url('{{ $.Site.BaseURL }}webfonts/3664EC_C_0.woff') format('woff');}
 
     .row1 {padding-top: 25px; vertical-align: top;}
     .col1 {width: 145; padding-left: 0;}
@@ -19,7 +19,7 @@
     <tbody>
       <tr>
         <td class="row1 col1">
-          <img src="/img/logo.svg" alt="Logo">
+          <img src="{{ $.Site.BaseURL }}img/logo.svg" alt="Good Monday">
         </td>
         <td class="row1">
           <font class="name">{{.Params.name}}</font><br>
