@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/site.css" />
+    <title>Good Monday Email Signatures</title>
+  </head>
+
+  <body>
+    <h1>Good Monday</h1>
+    <h2>Email signatures</h2>
+    <hr>
+    <div>
+      <ul>
+        {{ range .Data.Pages }}
+        <li>
+          <a href="{{ .Permalink }}" >{{ .Params.name }}</a>
+        {{ end }}
+      </ul>
+    </div>
+  </body>
+</html>
